@@ -1,0 +1,31 @@
+@media screen and (max-width: 760px){
+    #header-top {
+        flex-direction: column;
+    }
+    
+    #header-nav-menu-btn {
+        margin-left: 100px;
+    }
+
+    #content {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    h2 {
+        font-size: 38px;
+    }
+
+    #content-form {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    #content-aside-img {
+        width: 450px;
+    }
+
+    input {
+        align-self: center;
+    }
+}
